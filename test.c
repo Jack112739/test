@@ -15,4 +15,5 @@ void foo(void *ptr) {
 int main() {
     void *ptr = malloc(10000);
     free(ptr);
+    foo(ptr);
 }
